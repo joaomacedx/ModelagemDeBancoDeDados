@@ -1,0 +1,7 @@
+                                       REFERÊNCIAS PARA A MODELAGEM DO BANCO DE DADOS DO CLUBE DO LIVRO:
+ Coletar os dados pessoais dos clientes, como por exemplo se ele é pessoa física ou jurídica. No caso de pessoa física o CPF e RG, e no caso de jurídica o CNPJ e IE. 
+ Além disso, deve-se coletar e armazenar o nome, endereço, telefone e e-mail. O produto principal do e-commerce são livros, estes livros têm informações associadas a eles como o título, 
+ categoria, o ISBN (International Standard Book Number), o ano de publicação, o valor, a editora que publicou o livro, bem como o autor ou autora da obra.
+ Os livros são fornecidos por editoras. É necessário ter guardados o telefone da editora, o nome de contato, o e-mail e no máximo 2 telefones, não poderá ter o mesmo livro 
+ vindo de várias editoras. O livro é exclusivo de uma editora. O cliente pode comprar um ou mais livros através de um pedido de compra. Porém,
+ sempre que ele fizer uma compra é necessário verificar no estoque se o livro está ou não disponível antes de efetuar a operação.
