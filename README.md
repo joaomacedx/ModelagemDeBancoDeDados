@@ -11,5 +11,5 @@
 <h3> Modelo Lógico: </h3>
 <img src="DocRef/Modelo_Logico.png"/> <br>
 
-
-
+<h3> Modelo Físico: </h3>
+<img src="DocRef/Modelo_Fisico.png"/> <br>

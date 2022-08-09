@@ -248,26 +248,26 @@
    <relationship id="REL67" populated="true" UUID="f72e7b28-345c-4105-a64a-c13af1fea231" deferrability="7" deleteRule="3" fk-table-ref="TAB13" fkCardinality="7" identifying="false" name="Tb_CLIENTE_Tb_PEDIDO_fk" physicalName="Tb_CLIENTE_Tb_PEDIDO_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP68" populated="true" UUID="060f9396-0ec2-4e71-a016-e856ca2a76ce" fk-column-ref="COL17" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
    </relationship>
-   <relationship id="REL69" populated="true" UUID="9ad37b8c-d4a2-4120-a8ea-9fd4ea6948d3" deferrability="7" deleteRule="3" fk-table-ref="TAB55" fkCardinality="7" identifying="true" name="Tb_CLIENTE_Tb_PESSOA_FISICA_fk" physicalName="Tb_CLIENTE_Tb_PESSOA_FISICA_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
-    <column-mapping id="CMP70" populated="true" UUID="da48e263-31b1-40aa-9d42-4800b632478d" fk-column-ref="COL56" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   <relationship id="REL69" populated="true" UUID="9ad37b8c-d4a2-4120-a8ea-9fd4ea6948d3" deferrability="7" deleteRule="3" fk-table-ref="TAB55" fkCardinality="3" identifying="true" name="Tb_CLIENTE_Tb_PESSOA_FISICA_fk" physicalName="Tb_CLIENTE_Tb_PESSOA_FISICA_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP70" populated="true" UUID="d36f4190-2e2e-4bdf-a89a-19291d8af85f" fk-column-ref="COL56" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
    </relationship>
-   <relationship id="REL71" populated="true" UUID="c8bde7db-753b-4a0a-8f7b-ed73c803950e" deferrability="7" deleteRule="3" fk-table-ref="TAB61" fkCardinality="7" identifying="true" name="Tb_CLIENTE_Tb_PESSOA_JURIDICA_fk" physicalName="Tb_CLIENTE_Tb_PESSOA_JURIDICA_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
-    <column-mapping id="CMP72" populated="true" UUID="267fa2c7-0e48-4467-843c-7981bacf9513" fk-column-ref="COL62" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   <relationship id="REL71" populated="true" UUID="c8bde7db-753b-4a0a-8f7b-ed73c803950e" deferrability="7" deleteRule="3" fk-table-ref="TAB61" fkCardinality="3" identifying="true" name="Tb_CLIENTE_Tb_PESSOA_JURIDICA_fk" physicalName="Tb_CLIENTE_Tb_PESSOA_JURIDICA_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP72" populated="true" UUID="736b9df5-abe0-4ea0-a43c-c44401686dea" fk-column-ref="COL62" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
    </relationship>
-   <relationship id="REL73" populated="true" UUID="41c6c141-c055-4000-8dc6-f9196312cbc9" deferrability="7" deleteRule="3" fk-table-ref="TAB20" fkCardinality="7" identifying="true" name="Tb_PEDIDO_Tb_ITEM_PEDIDO_fk" physicalName="Tb_PEDIDO_Tb_ITEM_PEDIDO_fk" pk-table-ref="TAB13" pkCardinality="2" updateRule="3" >
-    <column-mapping id="CMP74" populated="true" UUID="79871403-dfb0-4857-8bff-5c7c53dfb619" fk-column-ref="COL21" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL14" />
+   <relationship id="REL73" populated="true" UUID="41c6c141-c055-4000-8dc6-f9196312cbc9" deferrability="7" deleteRule="3" fk-table-ref="TAB20" fkCardinality="6" identifying="true" name="Tb_PEDIDO_Tb_ITEM_PEDIDO_fk" physicalName="Tb_PEDIDO_Tb_ITEM_PEDIDO_fk" pk-table-ref="TAB13" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP74" populated="true" UUID="3e33afcc-9c0d-4eda-9fa5-f9429e1aef49" fk-column-ref="COL21" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL14" />
    </relationship>
-   <relationship id="REL75" populated="true" UUID="98907a43-f348-451b-af12-f91c609bc7f7" deferrability="7" deleteRule="3" fk-table-ref="TAB20" fkCardinality="7" identifying="true" name="Tb_LIVRO_Tb_ITEM_PEDIDO_fk" physicalName="Tb_LIVRO_Tb_ITEM_PEDIDO_fk" pk-table-ref="TAB28" pkCardinality="2" updateRule="3" >
-    <column-mapping id="CMP76" populated="true" UUID="471208e2-d5c6-4641-aa9d-21ab2b5a29fd" fk-column-ref="COL22" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL29" />
+   <relationship id="REL75" populated="true" UUID="98907a43-f348-451b-af12-f91c609bc7f7" deferrability="7" deleteRule="3" fk-table-ref="TAB20" fkCardinality="6" identifying="true" name="Tb_LIVRO_Tb_ITEM_PEDIDO_fk" physicalName="Tb_LIVRO_Tb_ITEM_PEDIDO_fk" pk-table-ref="TAB28" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP76" populated="true" UUID="8d42d85b-328b-49c0-8bf3-313321d4c80c" fk-column-ref="COL22" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL29" />
    </relationship>
    <relationship id="REL77" populated="true" UUID="e6603e43-107a-4286-b484-f09c1dde5bc9" deferrability="7" deleteRule="3" fk-table-ref="TAB48" fkCardinality="7" identifying="true" name="Tb_LIVRO_Tb_ESTOQUE_fk" physicalName="Tb_LIVRO_Tb_ESTOQUE_fk" pk-table-ref="TAB28" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP78" populated="true" UUID="4be80630-3430-46b8-8fad-645cdb724c28" fk-column-ref="COL49" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL29" />
    </relationship>
-   <relationship id="REL79" populated="true" UUID="7400ff46-c934-45df-aaca-92f4ada70217" deferrability="7" deleteRule="3" fk-table-ref="TAB48" fkCardinality="7" identifying="true" name="Tb_LIVRO_Tb_ESTOQUE_fk1" physicalName="Tb_LIVRO_Tb_ESTOQUE_fk1" pk-table-ref="TAB28" pkCardinality="2" updateRule="3" >
-    <column-mapping id="CMP80" populated="true" UUID="e66215fc-e356-423c-8d46-46c1cb141a1d" fk-column-ref="COL50" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL29" />
+   <relationship id="REL79" populated="true" UUID="7400ff46-c934-45df-aaca-92f4ada70217" deferrability="7" deleteRule="3" fk-table-ref="TAB48" fkCardinality="3" identifying="true" name="Tb_LIVRO_Tb_ESTOQUE_fk1" physicalName="Tb_LIVRO_Tb_ESTOQUE_fk1" pk-table-ref="TAB28" pkCardinality="6" updateRule="3" >
+    <column-mapping id="CMP80" populated="true" UUID="7e86317f-2756-4bae-ad09-0d27793dc75d" fk-column-ref="COL50" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL29" />
    </relationship>
-   <relationship id="REL81" populated="true" UUID="0418054a-c936-4245-aebb-5dee800ad277" deferrability="7" deleteRule="3" fk-table-ref="TAB28" fkCardinality="7" identifying="false" name="Tb_EDITORA_Tb_LIVRO_fk" physicalName="Tb_EDITORA_Tb_LIVRO_fk" pk-table-ref="TAB40" pkCardinality="2" updateRule="3" >
-    <column-mapping id="CMP82" populated="true" UUID="bc7b4fe0-4980-44ad-9530-8d10908e603b" fk-column-ref="COL37" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL41" />
+   <relationship id="REL81" populated="true" UUID="0418054a-c936-4245-aebb-5dee800ad277" deferrability="7" deleteRule="3" fk-table-ref="TAB28" fkCardinality="6" identifying="false" name="Tb_EDITORA_Tb_LIVRO_fk" physicalName="Tb_EDITORA_Tb_LIVRO_fk" pk-table-ref="TAB40" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP82" populated="true" UUID="bf574e4a-e222-497d-8c79-77f77c7f1a48" fk-column-ref="COL37" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL41" />
    </relationship>
   </relationships>
  </target-database>
