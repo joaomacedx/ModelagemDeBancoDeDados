@@ -1,6 +1,6 @@
 <h1> Studying Database Modeling </h1>
  
-<h2> Projeto:  </h2>
+<h2> Project:  </h2>
 <p> Database of an E-commerce book (Read+) </p> 
 <br>
 <hr>
